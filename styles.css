@@ -1,0 +1,43 @@
+/* Global Styles */
+body {
+    font-family: "Satisfy", cursive ;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    color: #a31db8; /* Purple color for headings */
+}
+
+/* Purple Theme */
+.purple-theme {
+    background-color: #1b1036; /* Dark purple background */
+    color: #c9b7ff; /* Light purple text color */
+}
+
+/* Button Styles */
+.enter-button,
+.return-button {
+    background-color: #9e76e8; /* Metallic purple button color */
+    border: none;
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    position: fixed;
+    top: 75%;
+}
+
+
+.enter-button:hover,
+.return-button:hover {
+    background-color: #6e0d7e; /* Darker metallic purple on hover */
+}
+
