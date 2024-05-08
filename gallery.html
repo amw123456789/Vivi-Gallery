@@ -7,51 +7,31 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Additional styles for this page */
-        .artwork1 {
-             max-width: 100%;
-            height: 0 auto;
-            display: block;
-            margin: 0 auto;
-            margin-bottom: 25px;
+        .artwork {
+            position: relative; /* Changed from fixed */
+            max-width: 100%; /* Ensures image doesn't overflow */
+            height: auto; /* Maintains aspect ratio */
+            margin-bottom: 20px; /* Adds space between images */
         }
 
-        
-        .artwork2 {
-             max-width: 100%;
-            height: 0 auto;
-            display: block;
-            margin: 0 auto;
-            margin-top: 25px;
-            
+        .gallery {
+            text-align: center; /* Center aligns the text */
+            font-size: 6vw; /* Responsive font size */
+            font-family: 'Satisfy', cursive; /* Added font family */
+            margin-top: 20px; /* Adds space above text */
         }
-    
-        .gallery{
-          text-align: center;
-            font-size: 40pt;
-        }
-         .return-button {
-            display: block; /* Ensure button takes full width */
-            margin: 30px auto; /* Center the button horizontally */
-             left: 40px auto;
-        }
-
-        
-
-        
-
     </style>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body class="purple-theme">
     <h1 class="gallery">Gallery</h1>
   
-    <img src="images/1.png"  height="200" width="200" class="artwork1" alt="Artwork 1">
+    <img src="images/1.png" class="artwork" alt="Artwork 1">
         
-    <img src="images/2.jpeg" height="200" width="200" class="artwork2" alt="Artwork 2">
+    <img src="images/2.jpeg" class="artwork" alt="Artwork 2">
     <br>
     <a href="index.html"><button class="return-button">Return to Home</button></a>
 </body>
